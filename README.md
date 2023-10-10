@@ -33,14 +33,6 @@ The StudyNotion ed-tech platform follows a client-server architecture, comprisin
 ## Front-end
 The front end is built using ReactJS, enabling dynamic and responsive user interfaces for an engaging learning experience. It communicates with the back end through RESTful API calls.
 
-## Back-end
-The back end is developed with NodeJS and ExpressJS, providing APIs for user authentication, course management, and content processing. It also incorporates MongoDB for flexible data storage and retrieval.
-
-## Database
-MongoDB serves as the NoSQL database, accommodating unstructured and semi-structured data, including course content like videos, images, and PDFs.
-
-## Front-end
-
 The StudyNotion front end is designed using Figma, offering a clean and minimal user interface. It includes various pages for students, instructors, and future admin features. Some key pages are:
 
 Homepage
@@ -60,6 +52,7 @@ Instructor Management (for admin, future scope)
 Frameworks and libraries such as ReactJS, CSS, Tailwind, Redux, and VSCode are used for front-end development.
 
 ## Back-end
+The back end is developed with NodeJS and ExpressJS, providing APIs for user authentication, course management, and content processing. It also incorporates MongoDB for flexible data storage and retrieval.
 
 The StudyNotion back end follows a monolithic architecture, utilizing Node.js, Express.js, and MongoDB. Key features include:
 
@@ -69,6 +62,10 @@ Payment integration (Razorpay)
 Cloud-based media management (Cloudinary)
 Markdown formatting for course content
 Frameworks, libraries, and tools used include Node.js, MongoDB, Express.js, JWT, Bcrypt, and Mongoose. Data models encompass student schema, instructor schema, and course schema.
+
+## Database
+MongoDB serves as the NoSQL database, accommodating unstructured and semi-structured data, including course content like videos, images, and PDFs.
+
 
 ## API Design
 

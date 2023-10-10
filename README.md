@@ -8,13 +8,13 @@ StudyNotion aims to provide:
 
 
 
-## Features ✨
+## Features and Functionalities ✨
 
-- *User authentication and authorization*: Students and instructors can signd up and log in to the platform using their email addresses and password. The platform also supports OTP (One-Time Password) verification  forgot password functionality for added security.
-- *Course management*: Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
-- *Payment Integration*: Students will purchase and enroll on courses by completing the checkout flow that is followed by Razorpay integration for payment handling.
-- *Cloud-based media management*: StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
-- *Markdown formatting*: Course content in document format is stored in Markdown format, which allows for easier display and rendering on the front end.
+- *User authentication and authorization* : Students and instructors can signd up and log in to the platform using their email addresses and password. The platform also supports OTP (One-Time Password) verification  forgot password functionality for added security.
+- *Course management* : Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
+- *Payment Integration* : Students will purchase and enroll on courses by completing the checkout flow that is followed by Razorpay integration for payment handling.
+- *Cloud-based media management* : StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
+- *Markdown formatting* : Course content in document format is stored in Markdown format, which allows for easier display and rendering on the front end.
 
 
 ## Table of Contents
@@ -58,8 +58,10 @@ The StudyNotion back end follows a monolithic architecture, utilizing Node.js, E
 
 Frameworks, libraries, and tools used include Node.js, MongoDB, Express.js, JWT, Bcrypt, and Mongoose. Data models encompass student  schema, instructor schema, and course schema.
 
-## Database
-MongoDB serves as the NoSQL database, accommodating unstructured and semi-structured data, including course content like videos, images, and PDFs.
+## Database and Data Model
+
+The database for the platform is built using MongoDB, which is a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data, which is useful for storing course content such as videos, images, and PDFs. The database stores the course content, user data, and other relevant information related to the platform.
+
 
 
 ## API Design
@@ -74,6 +76,16 @@ StudyNotion's API adheres to the REST architectural style, implemented using Nod
 - /api/courses/:id (GET, PUT, DELETE)
 - /api/courses/:id/rate (POST)
 Sample API requests and responses are provided for each endpoint, ensuring seamless communication between front end and back end.
+
+## Frameworks, Libraries, and Tools
+
+- Node.js: Node.js is used as the primary framework for the back end.
+- MongoDB: MongoDB is used as the primary database, providing a flexible and scalable data storage solution.
+- Express.js: Express.js is used as a web application framework, providing a range of features and tools for building web applications.
+- JWT: JWT (JSON Web Tokens) are used for authentication and authorization, providing a secure and reliable way to manage user credentials.
+- Bcrypt: Bcrypt is used for password hashing, adding an extra layer of security to user data.
+- Mongoose: Mongoose is used as an Object Data Modeling (ODM) library, providing a way to interact with MongoDB using JavaScript.
+
 
 
 

@@ -74,40 +74,16 @@ Frameworks, libraries, and tools used include Node.js, MongoDB, Express.js, JWT,
 
 StudyNotion's API adheres to the REST architectural style, implemented using Node.js and Express.js. It uses JSON for data exchange and supports standard HTTP request methods. Sample API endpoints include:
 
-/api/auth/signup (POST)
-/api/auth/login (POST)
-/api/auth/verify-otp (POST)
-/api/auth/forgot-password (POST)
-/api/courses (GET, POST)
-/api/courses/:id (GET, PUT, DELETE)
-/api/courses/:id/rate (POST)
+-/api/auth/signup (POST)
+-/api/auth/login (POST)
+-/api/auth/verify-otp (POST)
+-/api/auth/forgot-password (POST)
+-/api/courses (GET, POST)
+-/api/courses/:id (GET, PUT, DELETE)
+-/api/courses/:id/rate (POST)
 Sample API requests and responses are provided for each endpoint, ensuring seamless communication between front end and back end.
 
-Deployment
 
-The StudyNotion platform is hosted on various cloud-based services:
-
-Front end: Vercel
-Back end: Render or Railway
-Media files: Cloudinary
-Database: MongoDB Atlas
-This infrastructure ensures scalability, security, and reliability for the platform, offering a seamless user experience.
-
-Testing
-
-The testing process for StudyNotion encompasses various types of testing using relevant test frameworks and tools.
-
-Future Enhancements
-
-StudyNotion has a roadmap for future enhancements, including:
-
-Gamification features
-Personalized learning paths
-Social learning features
-Mobile app development
-Machine learning-powered recommendations
-Virtual reality/augmented reality integration
-These enhancements will improve the platform's offerings to students, instructors, and administrators, with priorities and timelines determined by available resources and platform needs.
 
 With StudyNotion, we aim to revolutionize the ed-tech landscape by providing a user-friendly, interactive, and comprehensive platform for both students and instructors. The project is a continuous endeavor, with a focus on innovation and delivering a top-notch learning experience.
 

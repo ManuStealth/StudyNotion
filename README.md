@@ -90,7 +90,7 @@ Sample API requests and responses are provided for each endpoint, ensuring seaml
 
 
 
-
+##
 With StudyNotion, we aim to revolutionize the ed-tech landscape by providing a user-friendly, interactive, and comprehensive platform for both students and instructors. The project is a continuous endeavor, with a focus on innovation and delivering a top-notch learning experience.
 
 

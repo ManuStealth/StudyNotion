@@ -62,6 +62,7 @@ Frameworks, libraries, and tools used include Node.js, MongoDB, Express.js, JWT,
 
 The database for the platform is built using MongoDB, which is a NoSQL database that provides a flexible and scalable data storage solution. MongoDB allows for the storage of unstructured and semi-structured data, which is useful for storing course content such as videos, images, and PDFs. The database stores the course content, user data, and other relevant information related to the platform.
 
+<img width="572" alt="Screenshot 2023-10-10 at 10 27 27 AM" src="https://github.com/ManuStealth/StudyNotion/assets/105938250/3f7ce8f5-e163-4a44-a190-acc2edf6494e">
 
 
 ## API Design

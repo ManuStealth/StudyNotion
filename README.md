@@ -19,18 +19,14 @@ StudyNotion aims to provide:
 
 ## Table of Contents
 
-System Architecture.
-
+System Architecture. 
 Front-end.
-
 Back-end.
 API Design.
 Deployment.
 Testing.
 Future Enhancements.
 System Architecture.
-
-The StudyNotion ed-tech platform follows a client-server architecture, comprising three main components:
 
 ## Front-end
 The front end is built using ReactJS, enabling dynamic and responsive user interfaces for an engaging learning experience. It communicates with the back end through RESTful API calls.

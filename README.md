@@ -23,43 +23,40 @@ StudyNotion aims to provide:
 - Front-end
 - Back-end
 - API Design
-- Deployment.
-- Testing
-- Future Enhancements
-- System Architecture
 
 ## Front-end
 The front end is built using ReactJS, enabling dynamic and responsive user interfaces for an engaging learning experience. It communicates with the back end through RESTful API calls.
 
 The StudyNotion front end is designed using Figma, offering a clean and minimal user interface. It includes various pages for students, instructors, and future admin features. Some key pages are:
 
-Homepage
-Course List
-Wishlist
-Cart Checkout
-Course Content
-User Details
-User Edit Details
-Dashboard (for instructors)
-Insights (for instructors)
-Course Management Pages (for instructors)
-View and Edit Profile Details (for instructors)
-Dashboard (for admin, future scope)
-Insights (for admin, future scope)
-Instructor Management (for admin, future scope)
-Frameworks and libraries such as ReactJS, CSS, Tailwind, Redux, and VSCode are used for front-end development.
+- Homepage
+- Course List
+- Wishlist
+- Cart Checkout
+- Course Content
+- User Details
+- User Edit Details
+- Dashboard (for instructors)
+- Insights (for instructors)
+- Course Management Pages (for instructors)
+- View and Edit Profile Details (for instructors)
+- Dashboard (for admin, future scope)
+- Insights (for admin, future scope)
+- Instructor Management (for admin, future scope)
+- Frameworks and libraries such as ReactJS, CSS, Tailwind, Redux, and VSCode are used for front-end development.
 
 ## Back-end
 The back end is developed with NodeJS and ExpressJS, providing APIs for user authentication, course management, and content processing. It also incorporates MongoDB for flexible data storage and retrieval.
 
 The StudyNotion back end follows a monolithic architecture, utilizing Node.js, Express.js, and MongoDB. Key features include:
 
-User authentication and authorization
-Course management
-Payment integration (Razorpay)
-Cloud-based media management (Cloudinary)
-Markdown formatting for course content
-Frameworks, libraries, and tools used include Node.js, MongoDB, Express.js, JWT, Bcrypt, and Mongoose. Data models encompass student schema, instructor schema, and course schema.
+- User authentication and authorization
+- Course management
+- Payment integration (Razorpay)
+- Cloud-based media management (Cloudinary)
+- Markdown formatting for course content
+
+Frameworks, libraries, and tools used include Node.js, MongoDB, Express.js, JWT, Bcrypt, and Mongoose. Data models encompass student - schema, instructor schema, and course schema.
 
 ## Database
 MongoDB serves as the NoSQL database, accommodating unstructured and semi-structured data, including course content like videos, images, and PDFs.
@@ -69,13 +66,13 @@ MongoDB serves as the NoSQL database, accommodating unstructured and semi-struct
 
 StudyNotion's API adheres to the REST architectural style, implemented using Node.js and Express.js. It uses JSON for data exchange and supports standard HTTP request methods. Sample API endpoints include:
 
--/api/auth/signup (POST)
--/api/auth/login (POST)
--/api/auth/verify-otp (POST)
--/api/auth/forgot-password (POST)
--/api/courses (GET, POST)
--/api/courses/:id (GET, PUT, DELETE)
--/api/courses/:id/rate (POST)
+- /api/auth/signup (POST)
+- /api/auth/login (POST)
+- /api/auth/verify-otp (POST)
+- /api/auth/forgot-password (POST)
+- /api/courses (GET, POST)
+- /api/courses/:id (GET, PUT, DELETE)
+- /api/courses/:id/rate (POST)
 Sample API requests and responses are provided for each endpoint, ensuring seamless communication between front end and back end.
 
 

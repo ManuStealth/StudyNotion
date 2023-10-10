@@ -20,7 +20,9 @@ StudyNotion aims to provide:
 ## Table of Contents
 
 System Architecture.
+
 Front-end.
+
 Back-end.
 API Design.
 Deployment.

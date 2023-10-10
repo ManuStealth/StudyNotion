@@ -19,11 +19,12 @@ StudyNotion aims to provide:
 
 ## Table of Contents
 
-- System Architecture
 - Front-end
 - Back-end
+- Database and Data Model
 - API Design
-
+- Frameworks, Libraries, and Tools
+  
 ## Front-end
 The front end is built using ReactJS, enabling dynamic and responsive user interfaces for an engaging learning experience. It communicates with the back end through RESTful API calls.
 

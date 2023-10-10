@@ -9,9 +9,10 @@ StudyNotion aims to provide:
 
 
 ## Features ✨
-- *User Registration* 📝: Users can create an account by providing their information and uploading a profile picture.
-- *User Authentication* 🔒: Secure authentication is implemented using JSON Web Tokens (JWT) to ensure authorized access to protected routes.
-- *Post Creation* 📝: Users can create posts with text content and an optional picture upload.
-- *User Profiles* 👤: Each user has a profile page where their posts are displayed along with their profile picture and information.
-- *Home Feed* 🏠: Authenticated users can view a feed of posts from all users, sorted by the most recent.
-- *Responsive Design* 📱: The app is optimized for various screen sizes and devices, allowing users to access Sociopedia from desktops, tablets, and mobile devices.
+
+- *User authentication and authorization*: Students and instructors can signd up and log in to the platform using their email addresses and password. The platform also supports OTP (One-Time Password) verification  forgot password functionality for added security.
+- *Course management*: Instructors can create, read, update, and delete courses, as well as manage course content and media. Students can view and rate courses.
+- *Payment Integration*: Students will purchase and enroll on courses by completing the checkout flow that is followed by Razorpay integration for payment handling.
+- *Cloud-based media management*: StudyNotion uses Cloudinary, a cloud-based media management service, to store and manage all media content, including images, videos, and documents.
+- *Markdown formatting*: Course content in document format is stored in Markdown format, which allows for easier display and rendering on the front end.
+

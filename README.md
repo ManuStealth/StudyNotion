@@ -56,7 +56,7 @@ The StudyNotion back end follows a monolithic architecture, utilizing Node.js, E
 - Cloud-based media management (Cloudinary)
 - Markdown formatting for course content
 
-Frameworks, libraries, and tools used include Node.js, MongoDB, Express.js, JWT, Bcrypt, and Mongoose. Data models encompass student - schema, instructor schema, and course schema.
+Frameworks, libraries, and tools used include Node.js, MongoDB, Express.js, JWT, Bcrypt, and Mongoose. Data models encompass student  schema, instructor schema, and course schema.
 
 ## Database
 MongoDB serves as the NoSQL database, accommodating unstructured and semi-structured data, including course content like videos, images, and PDFs.
